@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Serif+Pro&display=swap');
 
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -72,6 +71,8 @@ li a {
     text-decoration: none;
 }
 footer {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 20px 30px;
     padding: 10px 20px;
