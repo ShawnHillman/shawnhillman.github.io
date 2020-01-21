@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Serif+Pro&display=swap');
+
 
 
 * {
@@ -12,6 +12,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    /*background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/s960x960/75594391_714306085723198_7718355723276517376_o.jpg?_nc_cat=104&_nc_ohc=sZSzs5PoW0IAX-kofPT&_nc_ht=scontent-sea1-1.xx&_nc_tp=1&oh=424cd1f52aee8202add4e154768f8ccd&oe=5EA9143A");
+    background-size: 50px;
+    background-repeat: repeat;*/
 }
 header {
     width: 100%;
