@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 body {
-    max-width: 400px;
+    max-width: 300px;
     background: whitesmoke;
     font-family: 'Roboto';
     margin: auto;
@@ -13,10 +13,35 @@ h1, h2, h3, h4, h5, h6 {
 
 #about-me-name {
     font-size: 60px;
-    margin: 100px 0 0;
+    margin: 30px 0 0;
 }
 #me-pic {
     width: 100%;
     max-width: 300px;
-    
+}
+h2 {
+    font-size: 32px;
+}
+ul {
+    list-style: none;
+    width: 100%;
+    max-width: 250px;
+    margin: 0px;
+    padding: 0 0 0 10px;
+}
+ul li {
+    width: 100%;
+}
+.lesson {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 225px;
+    padding: 10px 15px;
+    background-color: #021e62;
+    border-radius: 3px;
+}
+ul a {
+    height: 100%;
+    color: white;
+    text-decoration: none;
 }
