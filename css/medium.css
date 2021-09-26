@@ -1,0 +1,19 @@
+@media (min-width: 32.53em) {
+
+    /* GRID */
+
+    body {
+        max-width: 800px;
+        width: 90%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #about-me-wrapper {
+        order: 1;
+    }
+    #lesson-wrapper {
+        order: 0;
+    }
+}
