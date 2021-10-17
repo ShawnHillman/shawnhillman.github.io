@@ -1,0 +1,100 @@
+* {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+h1 {
+    font-size: 3em;
+}
+p, a {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+body {
+    max-width: 100%;
+    margin: 0 30px auto;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 100%;
+}
+body > * {
+    padding: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    box-shadow: 3px 5px 5px #cccccc;
+}
+
+.assign-title {
+    margin: 100px 0 0;
+    font-weight: 500;
+}
+.assign-name {
+    margin: 0 0 50px;
+}
+.quick {
+    padding: 10px;
+    background-color: #3b528d;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: .8em;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.quick:hover {
+    background-color: #09266e;
+}
+
+.principle-title {
+    margin: 50px 0 20px;
+}
+.principle-org {
+    margin: 10px 50px;
+    font-weight: 800;
+}
+.principle-link {
+    margin: 10px 50px;
+    padding: 10px 25px;
+    background-color: #3b528d;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: .8em;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.principle-link:hover {
+    background-color: #08266e;
+}
+.principle-des {
+    margin: 10px 50px 50px;
+    max-width: 100%;
+}
+.image-container {
+    margin: 10px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+      max-width: 600px;
+      margin: auto;
+    }
+  }

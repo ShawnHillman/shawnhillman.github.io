@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Design Principles | Week 2</title>
+
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
@@ -13,77 +15,47 @@
             <h2 class="assign-name">Week 2 Assignment</h2>
         </header>
         <nav>
-            <a href="#white-space">White Space & Clean Design</a>
-            <a href="#repetition">Repetition</a>
-            <a href="#contrast">Contrast</a>
+            <a class="quick" href="#white-space">White Space & Clean Design</a>
+            <a class="quick" href="#repetition">Repetition</a>
+            <a class="quick" href="#contrast">Contrast</a>
         </nav>
         <main>
             <section id="white-space">
                 <h3 class="principle-title">White Space & Clean Design</h3>
                 <p class="principle-org">Apple</p>
-                <a href="https://www.apple.com/">Website</a>
+                <a class="principle-link" href="https://www.apple.com/">Website</a>
                 <p class="principle-des">Apple is known for having a very clean design with all of their products. Their website reflects that. It's very minimalistic, while also showing off their products fluidly. The only things taking up space are the titles of the products, brief details, and the images of the products themselves. There is plenty of whitespace and contrast to draw attention to the products and make sure you understand exactly what they want you to buy.</p>
-                <img src="images/apple-1.jpg" alt="First view of Apple's mobile website"/>
-                <img src="images/apple-2.jpg" alt="More of Apple's mobile website content"/>
-                <img src="images/apple-3.jpg" alt="Yet more of Apple's mobile website content"/>
+                <div class="image-container">
+                    <img src="images/apple-1.jpg" alt="First view of Apple's mobile website"/>
+                    <img src="images/apple-2.jpg" alt="More of Apple's mobile website content"/>
+                    <img src="images/apple-3.jpg" alt="Yet more of Apple's mobile website content"/>
+                </div>
             </section>
 
             <section id="repetition">
                 <h3 class="principle-title">Repetition</h3>
                 <p class="principle-org">Graeter's</p>
-                <a href="https://www.graeters.com/">Website</a>
+                <a class="principle-link" href="https://www.graeters.com/">Website</a>
                 <p class="principle-des">Ice Cream is the best. No debate. But when you have tons of deliscious flavors to sell, it's important that your customers understand all of the options they have to choose from, while also knowing they are all flavors of the same type of treat. Graeter's Ice Cream website uses repetition in the design of featuring their flavors of ice cream. Repetition is used in the font choices throughout the site, the color scheme, and the images used for the flavors. They are all scoops ready to be put in your cone. </p>
-                <img src="images/ice-cream-menu.jpg" alt=""/>
-                    <!-- Slideshow container -->
-                    <div class="slideshow-container">
-
-                        <!-- Images with number and caption text -->
-                        <div class="mySlides fade">
-                            <div class="numbertext">1 / 4</div>
-                                <img src="images/ice-cream-1.jpg" alt="Graeter's Black Rasberry Chocolate Chip Flavored Ice Cream">
-                            <div class="text">Black Raspberry Chocolate Chip</div>
-                        </div>
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 4</div>
-                                <img src="images/ice-cream-2.jpg" alt="Graeter's Birthday Cake Flavored Ice Cream">
-                            <div class="text">Birthday Cake</div>
-                        </div>
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 4</div>
-                                <img src="images/ice-cream-3.jpg" alt="Graeter's Cotton Candy Flavored Ice Cream">
-                            <div class="text">Cotton Candy</div>
-                        </div>
-
-                        <div class="mySlides fade">
-                            <div class="numbertext">4 / 4</div>
-                                <img src="images/ice-cream-4.jpg" alt="Graeter's Dark Chocolate Brownie Flavored Ice Cream">
-                            <div class="text">Dark Chocolate Brownie</div>
-                        </div>
-
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
-                    
-                    <!-- The dots/circles -->
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
+                <div class="image-container">
+                    <img src="images/ice-cream-menu.jpg" alt=""/>
+                    <img src="images/ice-cream-1.jpg" alt=""/>
+                    <img src="images/ice-cream-2.jpg" alt=""/>
+                    <img src="images/ice-cream-3.jpg" alt=""/>
+                    <img src="images/ice-cream-4.jpg" alt=""/>
+                </div>
             </section>
 
             <section id="contrast">
                 <h3 class="principle-title">Contrast</h3>
                 <p class="principle-org">Cheetos</p>
-                <a href="https://www.cheetos.com/">Website</a>
+                <a class="principle-link" href="https://www.cheetos.com/">Website</a>
                 <p class="principle-des">Although Cheetos might be viewed as not the most professional snack, their website is designed using the 'professional' design principles. They use contrast well, so you can see their titles, text and products easily, despite the bright colors all over the site. Makes you wanna stuff your face by the handfull.</p>
-                <img src="images/cheetos-1.jpg" alt="Cheetos' Sweepstakes"/>
-                <img src="images/cheetos-2.jpg" alt="Cheetos' Products Line"/>
-                <img src="images/cheetos-3.jpg" alt="Cheetos' Videos and Recipes"/>
+                <div class="image-container">
+                    <img src="images/cheetos-1.jpg" alt="Cheetos' Sweepstakes"/>
+                    <img src="images/cheetos-2.jpg" alt="Cheetos' Products Line"/>
+                    <img src="images/cheetos-3.jpg" alt="Cheetos' Videos and Recipes"/>
+                </div>
             </section>
         </main>
         <footer></footer>
